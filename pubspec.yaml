@@ -1,0 +1,157 @@
+name: jost_pay_wallet
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.5+6
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  clipboard: ^0.1.3
+  fluttertoast: ^8.2.4
+  custom_pin_screen: ^0.5.0
+  pin_code_fields: ^8.0.1
+  flutter_staggered_grid_view: ^0.7.0
+  dotted_decoration: ^2.0.0
+  flutter_switch: ^0.3.2
+  mobile_scanner: ^3.5.5
+  http: ^1.1.2
+  path_provider: ^2.1.1
+  sqflite: ^2.3.0
+
+  # stop screen shared
+  flutter_windowmanager: ^0.2.0
+
+  shared_preferences: ^2.2.2
+
+  connectivity_plus: ^5.0.2
+#  device_info_plus: ^9.1.0
+
+  grouped_list: ^5.1.2
+
+  #load svg image
+  flutter_svg: ^2.0.9
+
+  #Shared plus
+  share_plus: ^7.2.1
+
+  # finger print
+  local_auth: ^2.1.7
+  cached_network_image: ^3.3.0
+  socket_io_client: ^2.0.3+1
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  declarative_refresh_indicator: ^0.1.0
+  qr_flutter: ^4.1.0
+  web3dart: ^2.7.2
+
+  #web view
+  flutter_inappwebview: ^5.8.0
+  flutter_slidable: ^3.0.1
+
+  #wallet connect v2
+  wallet_connect_dart_v2: ^0.0.1
+  bip39: ^1.0.6
+  bip32: ^2.0.0
+  eth_sig_util: ^0.0.9
+  uni_links: ^0.5.1
+
+  flutter_secure_storage: ^9.0.0
+  uuid: ^4.2.1
+  csc_picker: ^0.2.7
+  flutter_otp_text_field: ^1.1.0+2
+  dotted_border: ^2.1.0
+  carousel_slider: ^4.2.1
+  gauge_indicator: ^0.4.3
+  flutter_animate: ^3.1.0
+  animated_custom_dropdown: 3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ie_logo.png"
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/dashboard/
+    - assets/images/splash/
+
+
+  fonts:
+    - family: NimbusSanLBol
+      fonts:
+        - asset: assets/fonts/NimbusSanL-Bol.otf
+
+    - family: NimbusSanLBolIta
+      fonts:
+        - asset: assets/fonts/NimbusSanL-BolIta.otf
+
+    - family: NimbusSanLRegular
+      fonts:
+        - asset: assets/fonts/NimbusSanL-Reg.otf
+
+    - family: NimbusSanLRegularItalic
+      fonts:
+        - asset: assets/fonts/NimbusSanL-RegIta.otf
+
+    - family: VahidRegular
+      fonts:
+        - asset: assets/fonts/XM-Vahid-Reg.otf
+
+    - family: VahidRegularItalic
+      fonts:
+        - asset: assets/fonts/XM-Vahid-RegIta.otf
+
+    - family: VahidBold
+      fonts:
+        - asset: assets/fonts/XM-Vahid-Bol.otf
+
+    - family: VahidBoldItalic
+      fonts:
+        - asset: assets/fonts/XM-Vahid-BolIta.otf
+
+    - family: InterRegular
+      fonts:
+        - asset: assets/fonts/Inter-Reg.otf
+
+    - family: InterRegularItalic
+      fonts:
+        - asset: assets/fonts/Inter-RegIta.otf
+
+    - family: InterBold
+      fonts:
+        - asset: assets/fonts/Inter-Bol.otf
+
+    - family: InterBoldItalic
+      fonts:
+        - asset: assets/fonts/Inter-BolIta.otf
